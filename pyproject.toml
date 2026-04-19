@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dgi-flow"
+version = "1.0.0"
+authors = [
+  { name="Gwendalynn Lim Wan Ting" },
+]
+description = "Universal Standard for Differentiable General Intelligence (DGI)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jax",
+    "jaxlib",
+    "numpy"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/evecount/flightpath"
